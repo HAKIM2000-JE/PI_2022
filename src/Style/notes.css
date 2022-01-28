@@ -1,0 +1,140 @@
+.notes{
+    margin: 10%;
+    min-height: 70vh;
+}
+
+.notes__title{
+    /* margin: auto; */
+    margin-left: 40%;
+    margin-bottom: 50px;
+}
+
+.notes__head{
+    display: flex;
+    /* float: right; */
+    margin-left: 35%;
+    margin-bottom: 50px;
+}
+
+.notes__head>select{
+    width: 220px;
+     /* height: 45px !important;  */
+     margin: 5px;
+     /* z-index: -1; */
+}
+.notes__head>select>option{
+    font-size: 13px;
+}
+
+.notes__head__searchbtn{
+    height: 50px;
+    border: none;
+    /* z-index: -1; */
+  
+outline-width: 0;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+    color: gray;
+    background-color: white;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+     border-radius: 5px;
+}
+
+
+.notes__ajouter{
+    display: flex;
+    /* float: right; */
+    
+    cursor: pointer;
+
+}
+
+.notes__ajouter__title{
+    color: rgb(65, 126, 206);
+      z-index: -100 !important;
+}
+
+
+
+.notes>.notes__ajouter__btn{
+    margin-left: 65%;
+    margin-bottom: 50px;
+    cursor: pointer;
+    z-index: -100 !important;
+   
+
+
+}
+
+.notes__head>button{
+    /* z-index: -1; */
+}
+
+#Modal{
+    z-index: 2 !important;
+    overflow-x: hidden !important;
+}
+
+
+.content>form{
+    position: relative;
+    top: -50px;
+}
+
+.row input{
+    max-width: 650px !important;
+}
+#typeDocument{
+    max-width: 650px !important;
+  
+
+
+}
+.row textarea{
+      max-width: 650px !important;
+      min-height: 150px !important;
+
+}
+.row-btn{
+    position: relative;
+    left: -100px;
+}
+
+.note_NonTrouvée{
+    color: grey;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.pagination_tab{
+   margin-left: 40%;
+   
+}
+
+
+
+
+@media (max-width: 1400px) {
+     .Nouveau__Document{
+         display: none;
+         
+     }
+
+     
+}
+
+
+
+@media (max-width: 900px) {
+    
+
+     .notes__head{
+        margin: 0 auto;
+        margin-left: 0%;
+        margin-bottom: 50px;
+     }
+
+}
+

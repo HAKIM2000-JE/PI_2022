@@ -1,0 +1,34 @@
+.eleve__content{
+    background-image: url('../image//Sutudent_background.jpg');
+    height: 100vh;
+    margin-bottom: 70px;
+    
+}
+
+.eleve__content_text{
+   position: absolute;
+    top: 30%;
+    left: 40%;
+    z-index: 2;
+    
+}
+
+.eleve__content_text>h1{
+    color: white;
+    font-family: Poppins,Arial,serif;
+    line-height: 1.85;
+    letter-spacing: 4px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.overlay{
+    background-color: #00000057;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+      margin-top: 67px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

@@ -1,0 +1,137 @@
+  * {
+    box-sizing: border-box;
+  }
+  
+  label {
+    /* padding: 12px 12px 12px 0; */
+    display: inline-block;
+  }
+  
+  .submit{
+    background-color: #169bd5;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 3px;
+  }
+  
+  .submit:hover {
+    background-color: #ebebeb;
+  }
+  
+  .col-10{
+    float: left;
+    margin-top: 6px;
+    margin-right: 20px;
+  }
+  
+  .col-30{
+    margin-left: 10%;
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .col-35 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+  }
+  .col-60 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    overflow: hidden;
+
+  }
+  .col-100 {
+    float: left;
+    border-style: solid;
+    overflow: hidden;
+    width: 50%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .col-5 {
+    overflow: hidden;
+    width: 5%;
+    float: left;
+    
+  }
+  .col-95 {
+    overflow: hidden;
+    width: 95%;
+    float: left;
+  }
+  .documentInfo{
+    background: #169bd5;
+    border-style: solid;
+    border-right: unset;
+  }
+
+
+  .barre {
+    background: #169bd5;
+    height: 100% !important;
+
+  }
+  .barre .icon{
+    margin-left: 23%;
+    border-style: solid;
+    overflow: hidden;
+    width: 50%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
+  .icon:hover{
+      background-color: #ebebeb;
+  }
+
+
+  .react-pdf__Page__canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    align-content: center;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .documentInfo,.col-5,.col-30, .col-100, .submit {
+      width: 100%;
+      margin-top: 0;
+      margin-left: auto;
+      
+    }
+    .documentInfo{
+        border-right: solid;
+    }
+    .col-10{
+      width: 100%;
+      margin-top: 2px;
+      display: inline-block;
+    }
+  
+  }
+  
+  
+  
+  .emploiTemps{
+    width:50%;
+    height: auto;
+  }
+
+
+  .content{
+      min-height: 1000px;
+  }

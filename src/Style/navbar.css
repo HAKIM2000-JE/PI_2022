@@ -1,0 +1,31 @@
+
+
+.navbar{
+    background-color: white !important;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.12);
+}
+.navbar-brand >img{
+     height: 40px;
+    object-fit: contain;
+    /* margin: 50px; */
+}
+
+
+.navbar-brand>a{
+    margin: 0 !important;
+}
+
+.links{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+@media (max-width: 1400px) {
+    .links{
+    margin-left: 5%;
+    margin-right: 60%;
+}
+
+
+}

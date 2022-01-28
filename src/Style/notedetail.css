@@ -1,0 +1,137 @@
+
+.notedetail{
+    margin-top: 10%;
+    min-height: 70vh;
+
+}
+
+.notedetail__trace{
+    float: left;
+    margin: 15px;
+    position: relative;
+    top: -30px;
+    margin-bottom: 500px;
+  
+}
+
+.notedetail__trace>span{
+    color: #6e97ff;
+    cursor: pointer;
+}
+.notedetail__trace>span:hover{
+    text-decoration: underline;
+}
+
+
+.notedetail__message__text{
+     text-align: justify;
+  text-justify: inter-word;  
+   overflow:hidden;
+
+
+
+}
+.notedetail__message__text__description{
+    
+   text-align: justify;
+}
+
+.notedetail__message__text__description::after{
+    content: "";
+  display: inline-block;
+  width: 100%;
+}
+.notedetail__title{
+    margin:30px ;
+    text-align: center;
+    position: relative;
+    left: -10%;
+ 
+}
+
+.notedetail__body{
+    width: 80%;
+    min-height:auto;
+    margin-left:10% ;
+     background: #F9F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 50px;
+    transition: transform 100ms ease-in;
+    margin-bottom: 50px;
+    
+    
+    text-align: left;
+}
+
+.notedetail__account{
+    display: flex;
+}
+
+.notedetail__account__avatar{
+    /* width: 50px; */
+    object-fit: contain;
+    margin: 10px;
+    color: grey;
+    /* font-size: 100px; */
+
+}
+.notedetail__time{
+    font-size: 12px;
+    color: gray;
+}
+.notedetail__message{
+    background-color: white;
+    margin: 60px;
+    margin-left: 15%;
+    padding: 50px;
+    border: 1px solid gray;
+     overflow:hidden;
+    word-wrap: break-word
+}
+
+
+
+.notedetail__message__pieceJoint{
+    color: gray;
+    font-weight: 700;
+}
+
+.notedetail__pdf{
+    max-width: 20px;
+    position: relative;
+    left: -50px;
+}
+.notedetail___download{
+    display: flex;
+    color: #6e97ff;
+    cursor: pointer;
+    margin-left: 65%;
+    font-size: 17px;
+    width: 20%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    /* align-items: center; */
+    /* padding: 20px; */
+   
+    padding: 20px 20px 50px 20px;
+    border-radius: 30px;
+    height: 30px;
+    justify-content: space-around;
+}
+.notedetail__commentaires{
+    margin-left: 25%;
+    display: block;
+    
+}
+.notedetail__commentaires>textarea{
+    width: 70%;
+    margin-left: 10%;
+    display: block;
+    margin-bottom:25px ;
+    outline-width: 0;
+    
+}
+
+.notedetail__commentaires>button{
+    margin-left: 71%;
+}
